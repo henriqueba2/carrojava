@@ -1,0 +1,31 @@
+package piloto java;
+
+public class Carro {
+	
+private String fabricante;
+private String modelo;
+private int ano;
+private boolean motorLigado;
+private int velocidade;
+
+public void detalhes() {
+	System.out.println("fabricante:" + this.fabricante);
+	System.out.println("modelo:" + this.modelo);
+	System.out.println("ano:" + this.ano +"\n");
+}
+	
+//método construtor simples
+public 	Carro () {
+super();
+}
+
+ //método construtor completo
+public Carro(String fabricante, String modelo, int ano, boolean motorLigado, int velocidade) {
+super();
+this.fabricante = fabricante;
+this.modelo = modelo;
+this.ano = ano;
+this.motorLigado = motorLigado;
+this.velocidade = velocidade;
+}
+}
